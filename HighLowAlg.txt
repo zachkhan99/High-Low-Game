@@ -1,0 +1,31 @@
+HighLow.py asks the user to guess a random integer between 1 and 100.
+The user will be promted to enter a number and the program will tell
+the user if it is too low, too high, or correct based on conditions.
+The program utilizes a while loop to enforce these conditions.
+
+
+INPUT:  number (to guess the program's random integer)
+OUTPUT: prompts that will tell the user to enter a number,
+        tell the user if the number is too high/too low/correct
+        the number of turns it took to get the correct number
+        will also be displayed
+
+STEPS:
+1)  Print the basis of the program/game to the user
+2)  Generate a random integer between 1 and 100
+3)  Assign each variable and starting number where:
+    a) turns = 0
+    b) guess = 0
+    c) attempt = 1
+4)  Set up a while loop
+    a)  The program will ask the user to enter a number which will
+        equal the variable "guess"
+    b)  After every pass through the loop, the number of turns and
+        the attempt number will go up by one
+    c)  If the guess compares to the value of the correct number,
+        then the program will tell the user they are correct and
+        tell them how any turns it took them
+    d)  If the guess less than the correct number, the program will
+        tell the user the number is too low
+    e)  If the guess is anything but the other two conditions, the
+        program will tell the user the number is too high.
